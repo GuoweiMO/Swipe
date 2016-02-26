@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <linkedin-sdk/LISDK.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    if ([LISDKCallbackHandler shouldHandleUrl:url]) {
+        return [LISDKCallbackHandler application:application openURL:url sourceApplication:sourceApplication annotation:annotation];
+    }
     return YES;
 }
 
