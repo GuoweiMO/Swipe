@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4AE3A271C7F8C9500E7670E"
-               BuildableName = "TouchBiz.app"
-               BlueprintName = "TouchBiz"
-               ReferencedContainer = "container:TouchBiz.xcodeproj">
+               BuildableName = "Swipe.app"
+               BlueprintName = "Swipe"
+               ReferencedContainer = "container:Swipe.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4AE3A401C7F8C9500E7670E"
-               BuildableName = "TouchBizTests.xctest"
-               BlueprintName = "TouchBizTests"
-               ReferencedContainer = "container:TouchBiz.xcodeproj">
+               BuildableName = "Swipe.xctest"
+               BlueprintName = "SwipeTests"
+               ReferencedContainer = "container:Swipe.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4AE3A4B1C7F8C9500E7670E"
-               BuildableName = "TouchBizUITests.xctest"
-               BlueprintName = "TouchBizUITests"
-               ReferencedContainer = "container:TouchBiz.xcodeproj">
+               BuildableName = "Swipe.xctest"
+               BlueprintName = "SwipeUITests"
+               ReferencedContainer = "container:Swipe.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4AE3A271C7F8C9500E7670E"
-            BuildableName = "TouchBiz.app"
-            BlueprintName = "TouchBiz"
-            ReferencedContainer = "container:TouchBiz.xcodeproj">
+            BuildableName = "Swipe.app"
+            BlueprintName = "Swipe"
+            ReferencedContainer = "container:Swipe.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4AE3A271C7F8C9500E7670E"
-            BuildableName = "TouchBiz.app"
-            BlueprintName = "TouchBiz"
-            ReferencedContainer = "container:TouchBiz.xcodeproj">
+            BuildableName = "Swipe.app"
+            BlueprintName = "Swipe"
+            ReferencedContainer = "container:Swipe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4AE3A271C7F8C9500E7670E"
-            BuildableName = "TouchBiz.app"
-            BlueprintName = "TouchBiz"
-            ReferencedContainer = "container:TouchBiz.xcodeproj">
+            BuildableName = "Swipe.app"
+            BlueprintName = "Swipe"
+            ReferencedContainer = "container:Swipe.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

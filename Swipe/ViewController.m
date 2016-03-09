@@ -33,9 +33,6 @@
                                       }
                                         errorBlock:^(NSError *error) {
                                             NSLog(@"%s %@","error called! ", [error description]);
-                                            //                                        self.lastError = error;
-                                            //  _responseLabel.text = [error description];
-                                            //                                        [self updateControlsWithResponseLabel:YES];
                                         }
          ];
     }
@@ -62,6 +59,21 @@
                                           error:^(LISDKAPIError *apiError) {
                                               // do something with error
                                           }];
+    
+    UISwipeGestureRecognizer *swipeCard = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(cardDidSwipe:)];
+    swipeCard.direction = UISwipeGestureRecognizerDirectionUp;
+    [self.cardView addGestureRecognizer:swipeCard];
+}
+
+- (void)cardDidSwipe:(UISwipeGestureRecognizer *)sender{
+    struct CGRect originalFrame = self.cardView.frame;
+    [UIView animateWithDuration:2 delay:0.5 options:UIViewAnimationOptionCurveEaseOut animations:^{
+        self.cardView.frame = CGRectMake(CGRectGetMinX(self.cardView.frame), -0.5 * self.cardView.frame.size.height, CGRectGetWidth(self.cardView.frame), CGRectGetHeight(self.cardView.frame));
+        self.cardView.alpha = 0;
+    } completion:^(BOOL finished) {
+        self.cardView.frame = originalFrame;
+        self.cardView.alpha = 1;
+    }];
 }
 
 - (void)downloadImageWithURL:(NSURL *)url completionBlock:(void (^)(BOOL succeeded, UIImage *image))completionBlock
@@ -81,9 +93,5 @@
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

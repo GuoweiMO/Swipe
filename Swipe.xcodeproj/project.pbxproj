@@ -13,8 +13,8 @@
 		E4AE3A361C7F8C9500E7670E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4AE3A341C7F8C9500E7670E /* Main.storyboard */; };
 		E4AE3A381C7F8C9500E7670E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AE3A371C7F8C9500E7670E /* Assets.xcassets */; };
 		E4AE3A3B1C7F8C9500E7670E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4AE3A391C7F8C9500E7670E /* LaunchScreen.storyboard */; };
-		E4AE3A461C7F8C9500E7670E /* TouchBizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AE3A451C7F8C9500E7670E /* TouchBizTests.m */; };
-		E4AE3A511C7F8C9500E7670E /* TouchBizUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AE3A501C7F8C9500E7670E /* TouchBizUITests.m */; };
+		E4AE3A461C7F8C9500E7670E /* SwipeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AE3A451C7F8C9500E7670E /* SwipeTests.m */; };
+		E4AE3A511C7F8C9500E7670E /* SwipeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AE3A501C7F8C9500E7670E /* SwipeUITests.m */; };
 		E4AE3A5F1C7F939C00E7670E /* linkedin-sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4AE3A5E1C7F939C00E7670E /* linkedin-sdk.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,19 +24,19 @@
 			containerPortal = E4AE3A201C7F8C9500E7670E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E4AE3A271C7F8C9500E7670E;
-			remoteInfo = TouchBiz;
+			remoteInfo = Swipe;
 		};
 		E4AE3A4D1C7F8C9500E7670E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E4AE3A201C7F8C9500E7670E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E4AE3A271C7F8C9500E7670E;
-			remoteInfo = TouchBiz;
+			remoteInfo = Swipe;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E4AE3A281C7F8C9500E7670E /* TouchBiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchBiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AE3A281C7F8C9500E7670E /* Swipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AE3A2C1C7F8C9500E7670E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4AE3A2E1C7F8C9500E7670E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E4AE3A2F1C7F8C9500E7670E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,11 +46,11 @@
 		E4AE3A371C7F8C9500E7670E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4AE3A3A1C7F8C9500E7670E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4AE3A3C1C7F8C9500E7670E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4AE3A411C7F8C9500E7670E /* TouchBizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchBizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4AE3A451C7F8C9500E7670E /* TouchBizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchBizTests.m; sourceTree = "<group>"; };
+		E4AE3A411C7F8C9500E7670E /* Swipe.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swipe.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AE3A451C7F8C9500E7670E /* SwipeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeTests.m; sourceTree = "<group>"; };
 		E4AE3A471C7F8C9500E7670E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4AE3A4C1C7F8C9500E7670E /* TouchBizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchBizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4AE3A501C7F8C9500E7670E /* TouchBizUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchBizUITests.m; sourceTree = "<group>"; };
+		E4AE3A4C1C7F8C9500E7670E /* Swipe.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swipe.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AE3A501C7F8C9500E7670E /* SwipeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeUITests.m; sourceTree = "<group>"; };
 		E4AE3A521C7F8C9500E7670E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4AE3A5E1C7F939C00E7670E /* linkedin-sdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "linkedin-sdk.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,9 +84,9 @@
 		E4AE3A1F1C7F8C9500E7670E = {
 			isa = PBXGroup;
 			children = (
-				E4AE3A2A1C7F8C9500E7670E /* TouchBiz */,
-				E4AE3A441C7F8C9500E7670E /* TouchBizTests */,
-				E4AE3A4F1C7F8C9500E7670E /* TouchBizUITests */,
+				E4AE3A2A1C7F8C9500E7670E /* Swipe */,
+				E4AE3A441C7F8C9500E7670E /* SwipeTests */,
+				E4AE3A4F1C7F8C9500E7670E /* SwipeUITests */,
 				E4AE3A291C7F8C9500E7670E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,14 +94,14 @@
 		E4AE3A291C7F8C9500E7670E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E4AE3A281C7F8C9500E7670E /* TouchBiz.app */,
-				E4AE3A411C7F8C9500E7670E /* TouchBizTests.xctest */,
-				E4AE3A4C1C7F8C9500E7670E /* TouchBizUITests.xctest */,
+				E4AE3A281C7F8C9500E7670E /* Swipe.app */,
+				E4AE3A411C7F8C9500E7670E /* Swipe.xctest */,
+				E4AE3A4C1C7F8C9500E7670E /* Swipe.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E4AE3A2A1C7F8C9500E7670E /* TouchBiz */ = {
+		E4AE3A2A1C7F8C9500E7670E /* Swipe */ = {
 			isa = PBXGroup;
 			children = (
 				E4AE3A2E1C7F8C9500E7670E /* AppDelegate.h */,
@@ -115,7 +115,7 @@
 				E4AE3A5E1C7F939C00E7670E /* linkedin-sdk.framework */,
 				E4AE3A2B1C7F8C9500E7670E /* Supporting Files */,
 			);
-			path = TouchBiz;
+			path = Swipe;
 			sourceTree = "<group>";
 		};
 		E4AE3A2B1C7F8C9500E7670E /* Supporting Files */ = {
@@ -126,30 +126,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E4AE3A441C7F8C9500E7670E /* TouchBizTests */ = {
+		E4AE3A441C7F8C9500E7670E /* SwipeTests */ = {
 			isa = PBXGroup;
 			children = (
-				E4AE3A451C7F8C9500E7670E /* TouchBizTests.m */,
+				E4AE3A451C7F8C9500E7670E /* SwipeTests.m */,
 				E4AE3A471C7F8C9500E7670E /* Info.plist */,
 			);
-			path = TouchBizTests;
+			path = SwipeTests;
 			sourceTree = "<group>";
 		};
-		E4AE3A4F1C7F8C9500E7670E /* TouchBizUITests */ = {
+		E4AE3A4F1C7F8C9500E7670E /* SwipeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E4AE3A501C7F8C9500E7670E /* TouchBizUITests.m */,
+				E4AE3A501C7F8C9500E7670E /* SwipeUITests.m */,
 				E4AE3A521C7F8C9500E7670E /* Info.plist */,
 			);
-			path = TouchBizUITests;
+			path = SwipeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E4AE3A271C7F8C9500E7670E /* TouchBiz */ = {
+		E4AE3A271C7F8C9500E7670E /* Swipe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4AE3A551C7F8C9500E7670E /* Build configuration list for PBXNativeTarget "TouchBiz" */;
+			buildConfigurationList = E4AE3A551C7F8C9500E7670E /* Build configuration list for PBXNativeTarget "Swipe" */;
 			buildPhases = (
 				E4AE3A241C7F8C9500E7670E /* Sources */,
 				E4AE3A251C7F8C9500E7670E /* Frameworks */,
@@ -159,14 +159,14 @@
 			);
 			dependencies = (
 			);
-			name = TouchBiz;
-			productName = TouchBiz;
-			productReference = E4AE3A281C7F8C9500E7670E /* TouchBiz.app */;
+			name = Swipe;
+			productName = Swipe;
+			productReference = E4AE3A281C7F8C9500E7670E /* Swipe.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E4AE3A401C7F8C9500E7670E /* TouchBizTests */ = {
+		E4AE3A401C7F8C9500E7670E /* SwipeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4AE3A581C7F8C9500E7670E /* Build configuration list for PBXNativeTarget "TouchBizTests" */;
+			buildConfigurationList = E4AE3A581C7F8C9500E7670E /* Build configuration list for PBXNativeTarget "SwipeTests" */;
 			buildPhases = (
 				E4AE3A3D1C7F8C9500E7670E /* Sources */,
 				E4AE3A3E1C7F8C9500E7670E /* Frameworks */,
@@ -177,14 +177,14 @@
 			dependencies = (
 				E4AE3A431C7F8C9500E7670E /* PBXTargetDependency */,
 			);
-			name = TouchBizTests;
-			productName = TouchBizTests;
-			productReference = E4AE3A411C7F8C9500E7670E /* TouchBizTests.xctest */;
+			name = SwipeTests;
+			productName = SwipeTests;
+			productReference = E4AE3A411C7F8C9500E7670E /* Swipe.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E4AE3A4B1C7F8C9500E7670E /* TouchBizUITests */ = {
+		E4AE3A4B1C7F8C9500E7670E /* SwipeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4AE3A5B1C7F8C9500E7670E /* Build configuration list for PBXNativeTarget "TouchBizUITests" */;
+			buildConfigurationList = E4AE3A5B1C7F8C9500E7670E /* Build configuration list for PBXNativeTarget "SwipeUITests" */;
 			buildPhases = (
 				E4AE3A481C7F8C9500E7670E /* Sources */,
 				E4AE3A491C7F8C9500E7670E /* Frameworks */,
@@ -195,9 +195,9 @@
 			dependencies = (
 				E4AE3A4E1C7F8C9500E7670E /* PBXTargetDependency */,
 			);
-			name = TouchBizUITests;
-			productName = TouchBizUITests;
-			productReference = E4AE3A4C1C7F8C9500E7670E /* TouchBizUITests.xctest */;
+			name = SwipeUITests;
+			productName = SwipeUITests;
+			productReference = E4AE3A4C1C7F8C9500E7670E /* Swipe.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -223,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E4AE3A231C7F8C9500E7670E /* Build configuration list for PBXProject "TouchBiz" */;
+			buildConfigurationList = E4AE3A231C7F8C9500E7670E /* Build configuration list for PBXProject "Swipe" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -236,9 +236,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E4AE3A271C7F8C9500E7670E /* TouchBiz */,
-				E4AE3A401C7F8C9500E7670E /* TouchBizTests */,
-				E4AE3A4B1C7F8C9500E7670E /* TouchBizUITests */,
+				E4AE3A271C7F8C9500E7670E /* Swipe */,
+				E4AE3A401C7F8C9500E7670E /* SwipeTests */,
+				E4AE3A4B1C7F8C9500E7670E /* SwipeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,7 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4AE3A461C7F8C9500E7670E /* TouchBizTests.m in Sources */,
+				E4AE3A461C7F8C9500E7670E /* SwipeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4AE3A511C7F8C9500E7670E /* TouchBizUITests.m in Sources */,
+				E4AE3A511C7F8C9500E7670E /* SwipeUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,12 +302,12 @@
 /* Begin PBXTargetDependency section */
 		E4AE3A431C7F8C9500E7670E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E4AE3A271C7F8C9500E7670E /* TouchBiz */;
+			target = E4AE3A271C7F8C9500E7670E /* Swipe */;
 			targetProxy = E4AE3A421C7F8C9500E7670E /* PBXContainerItemProxy */;
 		};
 		E4AE3A4E1C7F8C9500E7670E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E4AE3A271C7F8C9500E7670E /* TouchBiz */;
+			target = E4AE3A271C7F8C9500E7670E /* Swipe */;
 			targetProxy = E4AE3A4D1C7F8C9500E7670E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -420,13 +420,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/TouchBiz",
+					"$(PROJECT_DIR)/Swipe",
 				);
-				INFOPLIST_FILE = TouchBiz/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				INFOPLIST_FILE = Swipe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Guowei.TouchBiz;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = Guowei.Swipe;
+				PRODUCT_NAME = Swipe;
 			};
 			name = Debug;
 		};
@@ -438,13 +438,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/TouchBiz",
+					"$(PROJECT_DIR)/Swipe",
 				);
-				INFOPLIST_FILE = TouchBiz/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				INFOPLIST_FILE = Swipe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Guowei.TouchBiz;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = Guowei.Swipe;
+				PRODUCT_NAME = Swipe;
 			};
 			name = Release;
 		};
@@ -452,11 +452,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TouchBizTests/Info.plist;
+				INFOPLIST_FILE = SwipeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Guowei.TouchBizTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchBiz.app/TouchBiz";
+				PRODUCT_BUNDLE_IDENTIFIER = Guowei.SwipeTests;
+				PRODUCT_NAME = Swipe;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipe.app/Swipe";
 			};
 			name = Debug;
 		};
@@ -464,22 +464,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TouchBizTests/Info.plist;
+				INFOPLIST_FILE = SwipeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Guowei.TouchBizTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchBiz.app/TouchBiz";
+				PRODUCT_BUNDLE_IDENTIFIER = Guowei.SwipeTests;
+				PRODUCT_NAME = Swipe;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swipe.app/Swipe";
 			};
 			name = Release;
 		};
 		E4AE3A5C1C7F8C9500E7670E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = TouchBizUITests/Info.plist;
+				INFOPLIST_FILE = SwipeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Guowei.TouchBizUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TouchBiz;
+				PRODUCT_BUNDLE_IDENTIFIER = Guowei.SwipeUITests;
+				PRODUCT_NAME = Swipe;
+				TEST_TARGET_NAME = Swipe;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -487,11 +487,11 @@
 		E4AE3A5D1C7F8C9500E7670E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = TouchBizUITests/Info.plist;
+				INFOPLIST_FILE = SwipeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Guowei.TouchBizUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = TouchBiz;
+				PRODUCT_BUNDLE_IDENTIFIER = Guowei.SwipeUITests;
+				PRODUCT_NAME = Swipe;
+				TEST_TARGET_NAME = Swipe;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
@@ -499,7 +499,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E4AE3A231C7F8C9500E7670E /* Build configuration list for PBXProject "TouchBiz" */ = {
+		E4AE3A231C7F8C9500E7670E /* Build configuration list for PBXProject "Swipe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4AE3A531C7F8C9500E7670E /* Debug */,
@@ -508,29 +508,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4AE3A551C7F8C9500E7670E /* Build configuration list for PBXNativeTarget "TouchBiz" */ = {
+		E4AE3A551C7F8C9500E7670E /* Build configuration list for PBXNativeTarget "Swipe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4AE3A561C7F8C9500E7670E /* Debug */,
 				E4AE3A571C7F8C9500E7670E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E4AE3A581C7F8C9500E7670E /* Build configuration list for PBXNativeTarget "TouchBizTests" */ = {
+		E4AE3A581C7F8C9500E7670E /* Build configuration list for PBXNativeTarget "SwipeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4AE3A591C7F8C9500E7670E /* Debug */,
 				E4AE3A5A1C7F8C9500E7670E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E4AE3A5B1C7F8C9500E7670E /* Build configuration list for PBXNativeTarget "TouchBizUITests" */ = {
+		E4AE3A5B1C7F8C9500E7670E /* Build configuration list for PBXNativeTarget "SwipeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4AE3A5C1C7F8C9500E7670E /* Debug */,
 				E4AE3A5D1C7F8C9500E7670E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TouchBiz.xcodeproj">
+      location = "self:/Users/guoweim/Workspace/TouchBiz/Swipe.xcodeproj">
    </FileRef>
 </Workspace>

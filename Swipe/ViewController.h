@@ -16,6 +16,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *phoneNumber;
 @property (weak, nonatomic) IBOutlet UIImageView *profileImage;
 @property (strong, nonatomic) IBOutlet UIView *userTable;
+@property (weak, nonatomic) IBOutlet UIView *cardView;
 
 @end
 
