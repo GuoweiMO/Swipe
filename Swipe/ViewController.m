@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  TouchBiz
+//  Swipe
 //
 //  Created by Guowei Mo on 25/02/2016.
 //  Copyright © 2016 Guowei Mo. All rights reserved.
@@ -82,11 +82,11 @@
     [NSURLConnection sendAsynchronousRequest:request
                                        queue:[NSOperationQueue mainQueue]
                            completionHandler:^(NSURLResponse *response, NSData *data, NSError *error) {
-                               if ( !error )
+                               if(!error)
                                {
                                    UIImage *image = [[UIImage alloc] initWithData:data];
                                    completionBlock(YES,image);
-                               } else{
+                               }else{
                                    completionBlock(NO,nil);
                                }
                            }];

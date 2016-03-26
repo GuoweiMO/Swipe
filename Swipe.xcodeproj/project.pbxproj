@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E47F36EE1CA7335200F01993 /* SWRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E47F36ED1CA7335200F01993 /* SWRequest.m */; };
+		E47F36F11CA73B3900F01993 /* SWCard.m in Sources */ = {isa = PBXBuildFile; fileRef = E47F36F01CA73B3900F01993 /* SWCard.m */; };
 		E4AE3A2D1C7F8C9500E7670E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AE3A2C1C7F8C9500E7670E /* main.m */; };
 		E4AE3A301C7F8C9500E7670E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AE3A2F1C7F8C9500E7670E /* AppDelegate.m */; };
 		E4AE3A331C7F8C9500E7670E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AE3A321C7F8C9500E7670E /* ViewController.m */; };
@@ -36,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E47F36EC1CA7335200F01993 /* SWRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRequest.h; path = models/SWRequest.h; sourceTree = "<group>"; };
+		E47F36ED1CA7335200F01993 /* SWRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRequest.m; path = models/SWRequest.m; sourceTree = "<group>"; };
+		E47F36EF1CA73B3900F01993 /* SWCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWCard.h; path = models/SWCard.h; sourceTree = "<group>"; };
+		E47F36F01CA73B3900F01993 /* SWCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWCard.m; path = models/SWCard.m; sourceTree = "<group>"; };
 		E4AE3A281C7F8C9500E7670E /* Swipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4AE3A2C1C7F8C9500E7670E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4AE3A2E1C7F8C9500E7670E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +87,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E47F36E81CA7329100F01993 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				E47F36EC1CA7335200F01993 /* SWRequest.h */,
+				E47F36ED1CA7335200F01993 /* SWRequest.m */,
+				E47F36EF1CA73B3900F01993 /* SWCard.h */,
+				E47F36F01CA73B3900F01993 /* SWCard.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		E47F36E91CA7329A00F01993 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		E47F36EA1CA732B300F01993 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4AE3A311C7F8C9500E7670E /* ViewController.h */,
+				E4AE3A321C7F8C9500E7670E /* ViewController.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		E47F36EB1CA732C100F01993 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				E4AE3A2E1C7F8C9500E7670E /* AppDelegate.h */,
+				E4AE3A2F1C7F8C9500E7670E /* AppDelegate.m */,
+				E4AE3A2C1C7F8C9500E7670E /* main.m */,
+			);
+			name = application;
+			sourceTree = "<group>";
+		};
 		E4AE3A1F1C7F8C9500E7670E = {
 			isa = PBXGroup;
 			children = (
@@ -104,16 +147,15 @@
 		E4AE3A2A1C7F8C9500E7670E /* Swipe */ = {
 			isa = PBXGroup;
 			children = (
-				E4AE3A2E1C7F8C9500E7670E /* AppDelegate.h */,
-				E4AE3A2F1C7F8C9500E7670E /* AppDelegate.m */,
-				E4AE3A311C7F8C9500E7670E /* ViewController.h */,
-				E4AE3A321C7F8C9500E7670E /* ViewController.m */,
+				E47F36EB1CA732C100F01993 /* application */,
+				E47F36EA1CA732B300F01993 /* controllers */,
+				E47F36E81CA7329100F01993 /* models */,
+				E47F36E91CA7329A00F01993 /* views */,
 				E4AE3A341C7F8C9500E7670E /* Main.storyboard */,
 				E4AE3A371C7F8C9500E7670E /* Assets.xcassets */,
 				E4AE3A391C7F8C9500E7670E /* LaunchScreen.storyboard */,
-				E4AE3A3C1C7F8C9500E7670E /* Info.plist */,
-				E4AE3A5E1C7F939C00E7670E /* linkedin-sdk.framework */,
 				E4AE3A2B1C7F8C9500E7670E /* Supporting Files */,
+				E4AE3A5E1C7F939C00E7670E /* linkedin-sdk.framework */,
 			);
 			path = Swipe;
 			sourceTree = "<group>";
@@ -121,7 +163,7 @@
 		E4AE3A2B1C7F8C9500E7670E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E4AE3A2C1C7F8C9500E7670E /* main.m */,
+				E4AE3A3C1C7F8C9500E7670E /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -275,7 +317,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E47F36F11CA73B3900F01993 /* SWCard.m in Sources */,
 				E4AE3A331C7F8C9500E7670E /* ViewController.m in Sources */,
+				E47F36EE1CA7335200F01993 /* SWRequest.m in Sources */,
 				E4AE3A301C7F8C9500E7670E /* AppDelegate.m in Sources */,
 				E4AE3A2D1C7F8C9500E7670E /* main.m in Sources */,
 			);
